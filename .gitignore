@@ -367,6 +367,10 @@
 /engine/inc/upgrade.php
 /engine/inc/plugins.php
 /install/
-/engine/modules/billing/plugins/payhide/
 /engine/data/billing/plugin.fixednews.php
 /templates/Torrentino/
+/engine/modules/billing/plugins/payhide/
+/templates/Default/billing/plugins/payhide/
+/engine/data/billing/plugin.payhide.php
+/engine/modules/billing/payments/paypal/
+/templates/Default/billing/icons/paypal.png
