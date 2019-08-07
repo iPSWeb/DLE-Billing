@@ -66,7 +66,7 @@ Class USER
 				$this->DevTools->API->Pagination(
 					$NumData, $GET['page'],
 					"/{$this->DevTools->config['page']}.html/{$this->DevTools->get_plugin}/{$this->DevTools->get_method}/page/{p}",
-					$TplPaginationLink, $TplPaginationThis
+					$TplPaginationLink, $TplPaginationThis, $this->DevTools->config['paging']
 				)
 			);
 
