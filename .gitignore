@@ -374,3 +374,5 @@
 /engine/data/billing/plugin.payhide.php
 /engine/modules/billing/payments/paypal/
 /templates/Default/billing/icons/paypal.png
+/engine/modules/billing/payments/freekassa/
+/templates/Default/billing/icons/freekassa.png

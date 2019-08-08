@@ -666,13 +666,13 @@ HTML;
 		}
 
 		$JSmenu = "$('li .active').after('{$JSmenu}');";
-		/*
+		
 		$Informers = $this->TopInformer();
 
 		if( $Informers )
 		{
-			$JSback .= '$(".padding-right").html(\''.$Informers.'\');';
-		}*/
+			$JSback .= '$(".heading-btn-group").prepend(\''.$Informers.'\');';
+		}
 
 		echoheader( "<div style=\"line-height: 1.2384616;\">
 						<span class=\"text-semibold\">{$this->lang['title']}</span> <br />
@@ -718,8 +718,8 @@ HTML;
 				$this->lang['main_news'],
 				$this->LQuery->DbNewInvoiceSumm() ? $this->API->Convert( $this->LQuery->DbNewInvoiceSumm() ) : 0,
 				$this->lang['statistics_0_title'],
-				"icon-bar-chart",
-				"green"
+				"fa fa-bar-chart",
+				"blue"
 			);
 
 			unset( $arrInformers[0] );
@@ -737,12 +737,14 @@ HTML;
 			}
 		}
 
-		return "<div class=\"pull-right padding-right newsbutton\">" . $strInformers . "</div>";
+		//return "<div class=\"pull-right padding-right newsbutton\">" . $strInformers . "</div>";
+                return $strInformers;
 	}
 
-	private function TopInformerView( $strLink, $strTitle, $intCount, $strText, $icon = 'icon-add', $iconBground = 'blue' )
+	private function TopInformerView( $strLink, $strTitle, $intCount, $strText, $icon = 'fa fa-star', $iconBground = 'blue' )
 	{
-		return "<div class=\"action-nav-normal action-nav-line\" style=\"display: inline-block\"><div class=\"action-nav-button nav-small\" style=\"width:125px;\"><a href=\"" . $strLink . "\" class=\"tip\" title=\"" . $strTitle . "\" ><span class=\"bt_informer\">" . $intCount . "</span><span style=\"margin-top: -10px\">" . $strText . "</span></a><span class=\"triangle-button " . $iconBground . "\"><i class=\"" . $icon . "\"></i></span></div></div>";
+		//return "<div class=\"action-nav-normal action-nav-line\" style=\"display: inline-block\"><div class=\"action-nav-button nav-small\" style=\"width:125px;\"><a href=\"" . $strLink . "\" class=\"tip\" title=\"" . $strTitle . "\" ><span class=\"bt_informer\">" . $intCount . "</span><span style=\"margin-top: -10px\">" . $strText . "</span></a><span class=\"triangle-button " . $iconBground . "\"><i class=\"" . $icon . "\"></i></span></div></div>";
+                return '<a href="'. $strLink .'" title="'. $strTitle .'" class="btn btn-link btn-float text-size-small has-text" style="user-select: none;"><i class="' . $icon . ' text-primary" aria-hidden="true"> '. $intCount .'</i> <span>'. $strText .'</span></a>';
 	}
 
 	# Загрузить или создать файл настроек
@@ -792,4 +794,3 @@ HTML;
 				</div>";
 	}
 }
-?>
