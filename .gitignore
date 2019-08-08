@@ -376,3 +376,4 @@
 /templates/Default/billing/icons/paypal.png
 /engine/modules/billing/payments/freekassa/
 /templates/Default/billing/icons/freekassa.png
+/templates/Default/billing/js/donate.js
