@@ -142,7 +142,7 @@ Class ADMIN
 
 		# Список информеров для плагинов
 		#
-		/*
+		
 		$arrInformers = array( 'invoice' => $this->Dashboard->lang['invoice_new'] );
 
 		foreach( $this->Dashboard->Plugins() as $name => $config )
@@ -154,7 +154,7 @@ Class ADMIN
 				$arrConInformer = explode(":", $conInformer );
 				$arrInformers[$name.".".$arrConInformer[1]] = $config['title'] . " &raquo; " . $arrConInformer[0];
 			}
-		}*/
+		}
 
 		$this->Dashboard->ThemeEchoHeader( $this->Dashboard->lang['menu_1'] );
 
@@ -224,11 +224,11 @@ Class ADMIN
 			"<input name=\"save_con[paging]\" class=\"form-control\" type=\"text\" value=\"" . $this->Dashboard->config['paging'] ."\" style=\"width: 20%\">"
 		);
 
-		/*$this->Dashboard->ThemeAddStr(
+		$this->Dashboard->ThemeAddStr(
 			$this->Dashboard->lang['settings_informers'],
 			$this->Dashboard->lang['settings_informers_desc'],
 			$this->Dashboard->GetSelect( $arrInformers, "informers[]", explode(",", $this->Dashboard->config['informers'] ), true  )
-		);*/
+		);
 
 		$tabs[] = array(
 				'id' => 'more',
