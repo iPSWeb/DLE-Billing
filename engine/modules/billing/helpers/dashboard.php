@@ -3,8 +3,8 @@
  * DLE Billing
  *
  * @link          https://github.com/iPSWeb/DLE-Billing
- * @author        PSWeb.ru <i@psweb.ru>
- * @copyright     Copyright (c) 2019, pligin
+ * @author        PSWeb.ru <i@psweb.ru> / mr_Evgen <dle-billing@ya.ru>
+ * @copyright     Copyright (c) 2019, pligin / mr_Evgen
  */
 
 # Админ.панель
