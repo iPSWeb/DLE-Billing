@@ -378,3 +378,7 @@
 /templates/Default/billing/icons/freekassa.png
 /templates/Default/billing/js/donate.js
 /engine/modules/billing/payments/liqpay/
+/engine/data/billing/payment.paypal.php
+/engine/data/billing/plugin.transfer.php
+/engine/data/billing/payment.liqpay.php
+/engine/data/billing/payment.freekassa.php

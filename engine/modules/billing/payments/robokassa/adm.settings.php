@@ -45,7 +45,7 @@ Class RoboKassa
 		return $Form;
 	}
 
-	function Form( $id, $config, $invoice, $currency, $desc )
+	function Form($id, $config, $invoice, $desc, $DevTools)
 	{
 		$sign_hash = md5("{$config[login]}:{$invoice[invoice_pay]}:{$id}:{$config[pass1]}");
 
@@ -65,7 +65,7 @@ Class RoboKassa
 
 	}
 
-	function getId( $data )
+	function check_id( $data )
 	{
 		return $data["InvId"];
 	}
