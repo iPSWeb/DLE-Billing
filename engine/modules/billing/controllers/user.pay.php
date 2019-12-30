@@ -170,7 +170,6 @@ Class USER{
                     }else{
                         $RedirectForm = '';
                     }
-                    print_r();
                     $this->DevTools->ThemeSetElement( "{button}", $RedirectForm .
                         $Paysys->Form(
                             $GET['id'],

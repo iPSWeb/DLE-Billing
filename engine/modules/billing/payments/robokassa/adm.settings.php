@@ -48,11 +48,9 @@ Class RoboKassa
 	function Form($id, $config, $invoice, $desc, $DevTools)
 	{
 		$sign_hash = md5("{$config[login]}:{$invoice[invoice_pay]}:{$id}:{$config[pass1]}");
-
 		$is_test = $config['server'] == 0 ? "<input type=hidden name=\"IsTest\" value=\"1\">" : "";
-
 		return '
-			<form method="post" id="paysys_form" action="https://merchant.roboxchange.com/Index.aspx">
+			<form method="post" id="paysys_form" action="https://auth.robokassa.ru/Merchant/Index.aspx">
 
 				<input type=hidden name="MerchantLogin" value="' . $config['login'] . '">
 				<input type=hidden name="OutSum" value="' . $invoice['invoice_pay'] . '">
@@ -80,16 +78,12 @@ Class RoboKassa
 		$out_summ = $data['OutSum'];
 		$inv_id = $data["InvId"];
 		$crc = $data["SignatureValue"];
-
 		$crc = strtoupper($crc);
-
 		$my_crc = strtoupper(md5("$out_summ:$inv_id:$config[pass2]"));
-
 		if ($my_crc != $crc)
 		{
 			return "bad sign\n";
 		}
-
 		return 200;
 	}
 }
