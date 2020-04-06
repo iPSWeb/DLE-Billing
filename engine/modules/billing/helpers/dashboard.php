@@ -2,9 +2,9 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/iPSWeb/DLE-Billing
- * @author        PSWeb.ru <i@psweb.ru> / mr_Evgen <dle-billing@ya.ru>
- * @copyright     Copyright (c) 2019, pligin / mr_Evgen
+ * @link          https://github.com/dle-billing/DLE-Billing
+ * @author        pligin <pligin@psweb.ru>
+ * @copyright     Copyright (c) 2020, pligin
  */
 
 # Админ.панель
@@ -693,7 +693,7 @@ HTML;
 	{
 		global $is_loged_in, $skin_footer;
 
-		$skin_footer = preg_replace('~<div class=\"footer text-muted text-size-small\">\s+(.*?)\s+<\/div>~s', "<div class=\"footer text-muted text-size-small\">&copy 2012 - 2018 <a href=\"https://dle-billing.ru/\" target=\"_blank\">DLE-Billing</a></div>", $skin_footer);
+		$skin_footer = preg_replace('~<div class=\"footer text-muted text-size-small\">\s+(.*?)\s+<\/div>~s', "<div class=\"footer text-muted text-size-small\">&copy 2012 - 2020 <a href=\"https://dle-billing.com/\" target=\"_blank\">DLE-Billing</a></div>", $skin_footer);
 		
 		if( $is_loged_in ) return $skin_footer;
 		else return $skin_not_logged_footer;

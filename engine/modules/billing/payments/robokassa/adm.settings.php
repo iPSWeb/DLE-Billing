@@ -2,14 +2,14 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/iPSWeb/DLE-Billing
- * @author        PSWeb.ru <i@psweb.ru> / mr_Evgen <dle-billing@ya.ru>
- * @copyright     Copyright (c) 2019, pligin / mr_Evgen
+ * @link          https://github.com/dle-billing/DLE-Billing
+ * @author        pligin <pligin@psweb.ru>
+ * @copyright     Copyright (c) 2020, pligin
  */
 
 Class RoboKassa
 {
-	var $doc = 'https://dle-billing.ru/platezhnye-sistemy/11-robokassa.html';
+	var $doc = 'https://dle-billing.com/robokassa.html';
 
 	function Settings( $config )
 	{

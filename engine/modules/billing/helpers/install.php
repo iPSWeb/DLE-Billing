@@ -2,9 +2,9 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/iPSWeb/DLE-Billing
- * @author        PSWeb.ru <i@psweb.ru> / mr_Evgen <dle-billing@ya.ru>
- * @copyright     Copyright (c) 2019, pligin / mr_Evgen
+ * @link          https://github.com/dle-billing/DLE-Billing
+ * @author        pligin <pligin@psweb.ru>
+ * @copyright     Copyright (c) 2020, pligin
  */
 
 $_Lang = include MODULE_PATH . '/lang/admin.php';
@@ -21,8 +21,8 @@ $blank = array
 	'fname' => "user_balance",
 	'start' => "log/main/page/1",
 	'format' => "float",
-	'version' => "0.7.1",
-	'url_catalog' => "https://dle-billing.ru/engine/ajax/extras/plugins.php",
+	'version' => "0.7.2",
+	'url_catalog' => "https://dle-billing.com/",
 	'urls' => "refund-cashback"
 );
 

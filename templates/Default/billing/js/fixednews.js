@@ -1,9 +1,9 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/mr-Evgen/dle-billing-module
- * @author        dle-billing.ru <evgeny.tc@gmail.com>
- * @copyright     Copyright (c) 2012-2017, mr_Evgen
+ * @link          https://github.com/dle-billing/DLE-Billing
+ * @author        dle-billing.com <pligin@psweb.ru>
+ * @copyright     Copyright (c) 2012-2020
  */
 
 function BillingNews()

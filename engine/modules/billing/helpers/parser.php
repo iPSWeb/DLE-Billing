@@ -2,9 +2,9 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/iPSWeb/DLE-Billing
- * @author        PSWeb.ru <i@psweb.ru> / mr_Evgen <dle-billing@ya.ru>
- * @copyright     Copyright (c) 2019, pligin / mr_Evgen
+ * @link          https://github.com/dle-billing/DLE-Billing
+ * @author        pligin <pligin@psweb.ru>
+ * @copyright     Copyright (c) 2020, pligin
  */
 
 define( 'MODULE_PATH', ENGINE_DIR . "/modules/billing" );
