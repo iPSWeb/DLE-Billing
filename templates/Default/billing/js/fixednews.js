@@ -1,7 +1,7 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/dle-billing/DLE-Billing
+* @link          https://dle-billing.com/
  * @author        dle-billing.com <pligin@psweb.ru>
  * @copyright     Copyright (c) 2012-2020
  */

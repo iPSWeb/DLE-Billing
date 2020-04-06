@@ -2,9 +2,7 @@
 /**
  * DLE Billing
  *
- * @link          https://github.com/dle-billing/DLE-Billing
- * @author        pligin <pligin@psweb.ru>
- * @copyright     Copyright (c) 2020, pligin
+ * @link          https://dle-billing.com/
  */
 
 # Пользовательский интерфейс
