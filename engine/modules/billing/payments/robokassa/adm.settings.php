@@ -7,7 +7,7 @@
 
 Class RoboKassa
 {
-	var $doc = 'https://dle-billing.com/robokassa.html';
+	var $doc = 'https://dle-billing.com/doc-robokassa.html';
 
 	function Settings( $config )
 	{
