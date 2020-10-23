@@ -31,8 +31,8 @@ if ($config['http_home_url'] == "")
 
 require_once ENGINE_DIR . '/classes/mysql.php';
 require_once ENGINE_DIR . '/data/dbconfig.php';
-require_once ENGINE_DIR . '/modules/functions.php';
 require_once ENGINE_DIR . '/classes/plugins.class.php';
+require_once ENGINE_DIR . '/modules/functions.php';
 require_once ENGINE_DIR . '/classes/templates.class.php';
 
 dle_session();

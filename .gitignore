@@ -377,10 +377,11 @@
 /engine/modules/billing/plugins/bonuses/
 /engine/modules/billing/plugins/fixednews/
 /engine/modules/billing/payments/yandex/
-/engine/modules/billing/payments/payeer/
 /engine/modules/billing/payments/paypal/
 /engine/modules/billing/payments/qiwi/
 /engine/modules/billing/payments/webmoney/
 /engine/modules/billing/payments/freekassa/
 /engine/modules/billing/payments/qiwip2p/
 /engine/modules/billing/payments/liqpay/
+/engine/modules/billing/payments/payeer/
+/engine/modules/billing/payments/enot/
